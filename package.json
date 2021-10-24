@@ -44,6 +44,6 @@
     "prettier": "1.19.1"
   },
   "devDependencies": {
-    "np": "7.0.0"
+    "np": "7.5.0"
   }
 }
