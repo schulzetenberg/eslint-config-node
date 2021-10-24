@@ -1,4 +1,4 @@
-{
+module.exports = {
   "extends": [
     "airbnb-base", // Airbnb's base JS .eslintrc (without React plugins),
     "prettier" // Ignore rules managed by prettier
@@ -28,4 +28,4 @@
   },
 
   "plugins": ["prettier"]
-}
+};
