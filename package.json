@@ -1,0 +1,49 @@
+{
+  "name": "@schulzetenberg/eslint-config-node",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "deploy": "np",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schulzetenberg/eslint-config-node.git"
+  },
+  "keywords": [
+    "lint",
+    "javascript",
+    "ecmascript",
+    "eslint",
+    "config",
+    "prettier",
+    "node"
+  ],
+  "author": "Jacob Schulzetenberg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/schulzetenberg/eslint-config-node/issues"
+  },
+  "np": {
+    "yarn": false,
+    "yolo": true
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "homepage": "https://github.com/schulzetenberg/eslint-config-node#readme",
+  "dependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-airbnb": "18.0.1",
+    "eslint-config-prettier": "6.9.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-prettier": "3.1.2",
+    "prettier": "1.19.1"
+  },
+  "devDependencies": {
+    "np": "7.0.0"
+  }
+}
