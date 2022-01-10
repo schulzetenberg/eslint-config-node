@@ -1,6 +1,6 @@
 {
   "name": "@schulzetenberg/eslint-config-node",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/schulzetenberg/eslint-config-node#readme",
   "dependencies": {
-		"eslint": "8.6.0",
+    "eslint": "8.6.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-import": "2.25.4",
